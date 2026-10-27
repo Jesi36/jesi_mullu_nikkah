@@ -36,6 +36,7 @@
 }
 *{box-sizing:border-box}
 html,body{margin:0}
+[hidden]{display:none!important}
 body{background-color:var(--ground);background-image:var(--grain),var(--jali),radial-gradient(circle at 50% 0%,rgba(255,255,255,.45),transparent 55%);
   color:var(--ink);font-family:var(--serif);font-weight:500;font-size:18px;line-height:1.55;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:44px 56px}
@@ -382,7 +383,7 @@ html{scroll-behavior:smooth}
 <script>
 (function(){
   /* Paste your Google Apps Script web app URL here to collect RSVPs and wishes in a Google Sheet. */
-  var SHEET_URL = "https://script.google.com/macros/s/AKfycbxFZ4e1kdnSjorV2MiBlT1-s3qDRMOCDK_LYxDYk3yN_WUIHGixrCtWix1weaIQqkXD/exec";
+  var SHEET_URL = "";
   /* Used only if SHEET_URL is empty: WhatsApp number in international format, digits only (e.g. 919876543210). */
   var WA_NUMBER = "";
 
